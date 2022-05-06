@@ -7,12 +7,12 @@ export default function Results(props) {
   } else {
     return (
       <div className="Meaning">
-        <h3>{props.results.word}</h3>
+        <h2>{props.results.word}</h2>
         <div>
           {props.results.meanings.map(function (meaning, index) {
             return (
               <div key={index}>
-                <div>{meaning.partOfSpeech}</div>
+                <h5>{meaning.partOfSpeech}</h5>
                 <div>
                   <Definitions definitions={meaning.definitions} />
                 </div>

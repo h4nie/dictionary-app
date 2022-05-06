@@ -7,6 +7,7 @@ export default function Definitions(props) {
       {props.definitions.map(function (definition, index) {
         return (
           <div key={index}>
+            <strong>{index + 1}.</strong>
             {definition.definition}
             <br />
             <br />
