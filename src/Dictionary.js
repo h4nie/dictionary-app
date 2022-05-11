@@ -13,6 +13,7 @@ export default function Dictionary(props) {
   function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${word}`;
     axios.get(apiUrl).then(handleResponse);
+    setLoaded(true);
   }
   function handleSubmit(event) {
     event.preventDefault();
@@ -40,7 +41,7 @@ export default function Dictionary(props) {
     );
   } else {
     search();
-    setLoaded(true);
+
     return null;
   }
 }
