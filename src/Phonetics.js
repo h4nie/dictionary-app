@@ -4,10 +4,10 @@ import "./Phonetics.css";
 export default function Phonetics(props) {
   return (
     <div className="Phonetics">
-      {props.phonetics.map(function (phonetic, index) {
+      {props.phonetics.map(function(phonetic, index) {
         return (
           <div key={index}>
-            <a href={phonetic.audio} target="_blank" rel="noreferrer">
+            <a href={phonetic.audio} target="_blank" rel="noopener noreferrer">
               Listen
             </a>{" "}
             <strong>{phonetic.text}</strong>
