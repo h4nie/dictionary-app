@@ -41,5 +41,6 @@ export default function Dictionary(props) {
   } else {
     search();
     setLoaded(true);
+    return null;
   }
 }
