@@ -1,0 +1,9 @@
+.App {
+  background: #f9f7fd;
+}
+.App h1 {
+  text-align: center;
+  margin: 20px;
+  font-weight: 700;
+  color: rgb(132, 107, 190);
+}

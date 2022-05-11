@@ -1,0 +1,11 @@
+.Synonyms ul {
+  margin: 20px 0;
+  padding: 0;
+}
+.Synonyms li {
+  opacity: 70%;
+  font-weight: 400;
+  display: inline-block;
+  padding-right: 10px;
+  font-size: 15px;
+}
